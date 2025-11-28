@@ -2,5 +2,21 @@ title: Chiaki 的博客
 email: 2829833904@qq.com
 description: 我的个人小站
 baseurl: "" 
-url: "https://2829833904-maker.github.io" 
-theme: jekyll-theme-cayman
+url: "https://2829833904-maker.github.io"
+theme: minima
+minima:
+  skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/2829833904-maker" }
+    
+colors:
+  primary: "#ffb6c1"    # 主色调-浅粉色
+  secondary: "#ff69b4"  # 辅助色-亮粉色
+  background: "#fff5f5" # 背景色-淡粉色
+  
+header: 
+  title: "我的猫窝"
+  description: "欢迎来到我的世界！"
+  
+footer:
+  content: "感谢来访"
