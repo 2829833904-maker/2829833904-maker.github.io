@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "我的第一篇文章"
 date: 2025-11-28 14:51:00 +0800
 categories: [日常]
