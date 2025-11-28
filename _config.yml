@@ -1,22 +1,27 @@
-title: Chiaki 的博客
-email: 2829833904@qq.com
-description: 我的个人小站
-baseurl: "" 
-url: "https://2829833904-maker.github.io"
+# 站点基本信息
+title: "猫窝"  # 您的博客标题
+email: 2829833904@qq.com     # 您的邮箱（可选）
+description: "欢迎来到我的世界！" # 博客描述
+baseurl: ""  
+url: "https://2829833904-maker.github.io" # 您的博客网址
+github_username: 2829833904-maker  # 您的GitHub用户名
+
+# 核心设置：使用 Minima 主题
 theme: minima
+
+# 为Minima主题提供的配置
 minima:
   skin: classic
+  # 社交链接（可选，可删除）
   social_links:
     - { platform: github, user_url: "https://github.com/2829833904-maker" }
-    
-colors:
-  primary: "#ffb6c1"    # 主色调-浅粉色
-  secondary: "#ff69b4"  # 辅助色-亮粉色
-  background: "#fff5f5" # 背景色-淡粉色
   
-header: 
-  title: "我的猫窝"
-  description: "欢迎来到我的世界！"
-  
-footer:
-  content: "感谢来访"
+# 博客构建设置
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 站点头部信息（可选，可删除）
+header_pages:
+  - index.md
